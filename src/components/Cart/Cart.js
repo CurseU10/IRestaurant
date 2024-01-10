@@ -43,7 +43,7 @@ const Cart = (props) => {
             tableno : url.get('tableno'),
             served : 'false'
         }
-        await axios.post('https://0ee0-2405-201-3010-7be1-7c45-9302-ae72-e4b9.ngrok-free.app/menu/createOrder',payload);
+        await axios.post('https://fad2-2405-201-3010-7be1-7c45-9302-ae72-e4b9.ngrok-free.app/menu/createOrder',payload);
         cartCtx.clearall();
         setShowOrder(true);
     };
